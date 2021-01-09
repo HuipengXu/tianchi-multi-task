@@ -1,0 +1,6 @@
+user_data/best_model/*
+user_data/cleaned_nlp_round1_data
+user_data/cleaned_nlp_round2_data
+user_data/nlp_round1_data_processed
+user_data/nlp_round2_data_processed
+.idea

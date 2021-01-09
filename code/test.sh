@@ -1,0 +1,19 @@
+python3 -m mtl.train \
+  --data_dir ../user_data/cleaned_nlp_round2_data \
+  --data_save_dir ../user_data/nlp_round2_data_processed \
+  --output_dir ../user_data/infernce \
+  --model_name_or_path ../user_data/best_model \
+  --tokenizer_dir ../user_data/best_model \
+  --learning_rate 1e-5 \
+  --per_device_train_batch_size 16 \
+  --per_device_eval_batch_size 16 \
+  --num_train_epochs 2 \
+  --evaluate_during_training \
+  --logging_dir ../user_data/inference_log \
+  --logging_first_step \
+  --logging_steps 500 \
+  --seed 2020 \
+  --test_b \
+  --do_predict \
+  --do_eval \
+  --freeze
