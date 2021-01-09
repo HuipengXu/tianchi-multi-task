@@ -34,7 +34,15 @@ $ bash test.sh
 ```
 加载训练过程第二阶段的最佳模型，最终 b 榜得分 0.6617。  
 
-![](https://tva1.sinaimg.cn/large/008eGmZEgy1gmhab7vd6jj312q0u0wp0.jpg)
+B 榜得分排名：
+<div align=center>
+<img src="https://tva1.sinaimg.cn/large/008eGmZEgy1gmhab7vd6jj312q0u0wp0.jpg"/>
+</div>
+
+
+<div align=center>
+<img src="https://tva1.sinaimg.cn/large/008eGmZEgy1gmhckh7d3hj30u00v7teq.jpg"/>
+</div>
 
 
 如果模型加载过程中发生损坏无法加载的情况，请在 user_data/best_model 目录下使用 download.sh 下载 pytorch_model.bin 模型文件
